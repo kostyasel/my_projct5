@@ -1,0 +1,290 @@
+/* 1024-1229*/
+@media screen and (max-width: 1229px) {
+
+}
+/*768-1023*/
+@media screen and (max-width: 1023px) {
+    #header-span{
+        display: none;
+    }
+    #header-container{
+        justify-content: left;
+    }
+    #logo{
+        margin-right: 64px;
+    }
+    #first-container{
+        padding-bottom: 0;
+        padding-top: 65px;
+        position: relative;
+        flex-direction: column;
+    }
+    #first-img{
+        right: -195px;
+        top: -130px;
+        position: relative;
+    }
+    #big-cake-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 120px 20px 30px;
+    }
+    #text{
+        text-align: -webkit-center;
+    }
+    #big-cake-title{
+        max-width: 475px;
+        width: 100%;
+    }
+    #big-cake-text{
+        max-width: 670px;
+        margin-bottom: 40px;
+    }
+    #numbers-container{
+        padding-bottom: 40px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .block-number{
+        text-align: -webkit-center;
+        max-width: 220px;
+        margin-right: 54px;
+        margin-bottom: 80px;
+    }
+    .cart-item{
+        margin-right: 30px;
+        margin-top: 135px;
+    }
+    #h2{
+        margin-bottom: 0;
+    }
+    #block-cart{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #offer-container{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    #offer-img{
+        position: relative;
+
+    }
+    #big-macaroons{
+        position: absolute;
+        max-width: 352px;
+        max-height: 499px;
+        top: 215px;
+        right: -160px;
+    }
+    #pic2{
+        right: -350px;
+        bottom: 300px;
+    }
+    #pic1{
+        left: -230px;
+        top: 200px;
+    }
+
+}
+/*425-767*/
+@media screen and (max-width: 767px) {
+
+}
+/*275-424*/
+@media screen and (max-width: 424px) {
+    #header-container{
+        justify-content: space-between;
+    }
+    #menu-button svg{
+        fill: red;
+    }
+    #header-items{
+        display: none;
+        /*display: flex;*/
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        align-items: baseline;
+        justify-content: flex-start;
+        margin: 0;
+        padding-top: 30px;
+        background: #000000ab;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+    #header-items.open{
+        display: flex;
+    }
+    #menu-button{
+        display: block;
+    }
+    .header-items{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    #header-items svg{
+        display: block;
+        width: 40px;
+        fill: red;
+        position: relative;
+        left: 20px;
+        top: 20px;
+        margin-bottom: 30px;
+    }
+    #h1{
+        font-size: 32px;
+        text-align: center;
+    }
+    #first-text{
+        font-size: 16px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px
+    }
+    #first-main{
+        text-align: center;
+    }
+    #first-img{
+        max-width: 250px;
+        max-height: 207px;
+    }
+    #first-container{
+        align-items: center;
+    }
+
+    #first-img{
+        position: initial;
+        margin-top: 38px;
+        margin-bottom: 43px;
+    }
+    #first-img img{
+        width: 100%;
+    }
+    #big-cake-container{
+        padding-top: 100px;
+    }
+    #big-cake-title{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    #big-cake-text{
+        font-size: 16px;
+        line-height: 1.437;
+        margin-bottom: 59px;
+    }
+    #img-cake{
+        max-height: 183px;
+        max-width: 302px;
+    }
+    #img-cake img{
+        width: 100%;
+    }
+    #big-cake-container{
+        padding-bottom: 0;
+    }
+    .block-number{
+        max-width: 165px;
+        margin-bottom: 35px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .title-numbers{
+        font-size: 18px;
+    }
+    .text-numbers{
+        font-size: 13px;
+    }
+    #numbers-container{
+        padding-bottom: 65px;
+        justify-content: space-between;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    #take-yours-container{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #h2{
+        font-size: 30px;
+    }
+    #offer-title{
+        font-size: 30px;
+    }
+    #main-form-title{
+        font-size: 16px;
+    }
+    #pic2{
+        display: none;
+    }
+    #big-macaroons{
+        display: none;
+    }
+    #offer-img{
+        position: absolute;
+    }
+    #pic1{
+        top: 64px;
+        left: 45px;
+    }
+    #offer-container{
+        padding-bottom: 77px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #first-form{
+        max-width: 345px;
+    }
+    #first-form input{
+        width: 100%;
+        max-width: 345px;
+    }
+    #second-form{
+        max-width: 345px;
+    }
+    #second-form input{
+        width: 100%;
+        max-width: 345px;
+    }
+    #footer-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    #footer-logo{
+        position: relative;
+        order: 1;
+        margin-bottom: 40px;
+        max-width: 180px;
+        text-align: center;
+        width: 100%;
+    }
+    #footer-number{
+        order: 2;
+        margin-bottom: 40px;
+    }
+    #footer-center{
+        order: 3;
+    }
+    #footer-annotation{
+        position: absolute;
+        top: 204px;
+        left: 18px;
+
+    }
+    #footer-container{
+        padding-top: 50px;
+        padding-bottom: 101px;
+    }
+
+
+
+
+}
+/*320-374*/
+@media screen and (max-width: 374px) {
+
+}

@@ -1,0 +1,391 @@
+@font-face {
+    src: url("../Fonts/Gilroy-Bold.ttf");
+    font-family: Gilroy-Bold;
+}
+
+@font-face {
+    src: url("../Fonts/Tavolgafree.ttf");
+    font-family: Tavolgafree;
+}
+
+@font-face {
+    src: url("../Fonts/Gilroy-Extrabold.otf");
+    font-family: Gilroy-Extrabold;
+}
+
+@font-face {
+    src: url("../Fonts/Gilroy-Medium.ttf");
+    font-family: Gilroy-Medium;
+}
+
+@font-face {
+    src: url("../Fonts/Gilroy-Regular.ttf");
+    font-family: Gilroy-Regular;
+}
+
+body {
+    font-family: Tavolgafree, sans-serif;
+    margin: 0;
+}
+
+#header {
+    background: #eba8b1;
+}
+
+#header-container {
+    max-width: 1200px;
+    padding: 35px 15px 35px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 18px;
+    font-family: Tavolgafree, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.header-items {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Gilroy-Medium, sans-serif;
+    color: rgb(119, 11, 29);
+    margin-left: 40px;
+    padding-bottom: 3px;
+}
+.header-items:hover{
+    border-bottom: 2px solid #821328;
+}
+#header-span {
+    font-size: 16px;
+    font-family: Gilroy-Bold, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#first {
+    background: #eba8b1;
+}
+
+#first-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 15px 108px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+#first-main {
+    max-width: 580px;
+}
+
+#h1 {
+    font-size: 55px;
+    font-family: Tavolgafree, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#first-text {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 59px;
+    margin-bottom: 80px;
+    max-width: 348px;
+}
+
+.page-button {
+    font-size: 18px;
+    font-family: Gilroy-Bold, sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: -moz-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    width: 240px;
+    padding: 22px 0 22px;
+    border: 0;
+    border-radius: 30px;
+}
+
+.page-button:hover{
+    background: #f8bcc4;
+}
+#first-img {
+    max-width: 539px;
+    max-height: 438px;
+}
+
+#first-img img {
+    max-width: 529px;
+    max-height: 438px;
+}
+
+#big-cake-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 120px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+#menu-button{
+    display: none;
+}
+
+#big-cake-title {
+    max-width: 475px;
+    font-size: 45px;
+    font-family: Tavolgafree, sans-serif;
+    color: rgb(51, 25, 7);
+    margin-bottom: 60px;
+}
+
+#big-cake-text {
+    font-size: 18px;
+    font-family: Gilroy-Regular, sans-serif;
+    color: rgb(51, 25, 7);
+    max-width: 400px;
+    line-height: 1.556;
+}
+
+#numbers-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    padding: 50px 15px 120px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.red-dot {
+    padding-top: 30px;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    background-color: rgb(130, 19, 40);
+    max-width: 70px;
+    max-height: 70px;
+    margin-bottom: 21px;
+}
+
+.red-dot span {
+    font-size: 60px;
+    font-family: Gilroy-Extrabold, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.75;
+}
+.title-numbers{
+    font-size: 20px;
+    font-family: Gilroy-Extrabold, sans-serif;
+    color: rgb(51, 25, 7);
+    margin-bottom: 20px;
+}
+.text-numbers{
+    font-size: 15px;
+    font-family: Gilroy-Medium, sans-serif;
+    color: rgb(51, 25, 7);
+}
+.block-number{
+    max-width: 210px;
+}
+#take-yours{
+    background: #eba8b1;
+}
+#take-yours-container{
+    padding: 120px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+#h2{
+    font-size: 45px;
+    font-family: Tavolgafree, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 143px;
+    text-align: center;
+}
+#block-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-item{
+    position: relative;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 0 21px 27px;
+    box-sizing: border-box;
+}
+.img-cart{
+    position: relative;
+    bottom: 65px;
+}
+.name-maka{
+    font-size: 18px;
+    font-family:Tavolgafree, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 26px;
+    text-align: center;
+}
+.end-cart{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.count{
+    margin-bottom: 16px;
+}
+.end-cart button{
+    background-image: -moz-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    font-family: Gilroy-Bold, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.end-cart button:hover{
+    background: #f3a600;
+}
+.count{
+    font-size: 15px;
+    font-family: Gilroy-Regular, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.costs{
+    font-size: 15px;
+    font-family: Gilroy-Regular, sans-serif;
+    color: rgb(255, 255, 255);
+}
+#offer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 100px 30px 100px;
+    box-sizing: border-box;
+}
+#offer-img{
+    margin-top: 66px;
+    margin-right: 162px;
+    position: relative;
+}
+#pic1{
+    position: absolute;
+    left: -35px;
+}
+#offer-title{
+    font-size: 44px;
+    color: rgb(51, 25, 7);
+    line-height: 1.222;
+    margin-bottom: 41px;
+}
+#offer-form{
+    max-width: 405px;
+}
+#main-form-title{
+    font-size: 18px;
+    font-family: Gilroy-Regular, sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    margin-bottom: 48px;
+}
+#first-form{
+    max-width: 295px;
+}
+.form-title{
+    font-size: 18px;
+    font-family: Gilroy-Bold, sans-serif;
+    color: rgb(18, 10, 6);
+    margin-bottom: 20px;
+}
+#second-form{
+    margin-top: 25px;
+    max-width: 295px;
+}
+.form{
+    position: relative;
+}
+#pic2{
+    position: absolute;
+    right: -120px;
+}
+.form input{
+    box-sizing: border-box;
+    border-width: 1px;
+    border-color: rgb(130, 19, 40);
+    border-style: solid;
+    border-radius: 30px;
+    padding: 22px 26px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+.form input::placeholder{
+    font-size: 15px;
+    font-family: Gilroy-Bold, sans-serif;
+    color: rgb(118, 12, 34);
+}
+#second-form .page-button{
+    width: 100%;
+}
+#footer{
+    background: #c0707c;
+}
+#footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 15px 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+#footer-center{
+    text-align: center;
+}
+#footer-center a{
+    text-decoration: none;
+}
+#second-form button:hover{
+    background: #f3a600;
+}
+#footer-svg{
+    max-width: 35px;
+    max-height: 35px;
+    fill: white;
+    margin: 0 auto;
+}
+#text-svg{
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: Gilroy-Bold, sans-serif;
+    color: rgb(255, 255, 255);
+}
+#footer-annotation{
+    font-size: 12px;
+    font-family: Gilroy-Regular, sans-serif;
+    color: rgb(227, 172, 180);
+    margin-top: 20px;
+}
+#footer-number{
+    font-size: 16px;
+    font-family: Gilroy-Bold, sans-serif;
+    color: rgb(255, 255, 255);
+}
+#footer-svg:hover svg{
+    fill: black;
+}
+#header-items svg{
+    display: none;
+}
